@@ -1,0 +1,138 @@
+/* Cute Aesthetic Color Scheme with Better Readability */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #444; /* Darker gray for better readability */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff9fb; /* Kept the very light pink background */
+}
+
+header {
+    background-color: #ffb6c1; /* Light pink */
+    color: #333; /* Darker text for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff6b6b; /* Bright coral instead of medium pink */
+}
+
+h2 {
+    color: #48cae4; /* Bright sky blue instead of pink */
+    border-bottom: 2px solid #a6e1fa; /* Light blue */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.content-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    border: 1px solid #f0f0f0;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(166, 225, 250, 0.3);
+    border: 1px solid #e0f7fa;
+}
+
+.button-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.interactive-btn {
+    background-color: #48cae4; /* Bright sky blue */
+    color: white; /* White text for contrast */
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(72, 202, 228, 0.3);
+}
+
+.interactive-btn:hover {
+    background-color: #ff6b6b; /* Bright coral */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.3);
+}
+
+.links-section {
+    margin-top: 30px;
+}
+
+.links-section a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #52b788; /* Bright mint green */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links-section a:hover {
+    color: #ff6b6b; /* Bright coral */
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #888; /* Medium gray */
+    font-size: 0.9em;
+}
+
+/* Kept the cute decorative elements */
+.content-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.content-section::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffb6c1;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.content-section::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: #a6e1fa;
+    border-radius: 50%;
+    opacity: 0.3;
+}
