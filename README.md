@@ -1,4 +1,4 @@
-Task1 - My First Web Project
+Task1 - My Web Project
 
 This is my HTML/CSS/JS project that includes:
 - Basic webpage structure
