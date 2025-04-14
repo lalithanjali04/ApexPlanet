@@ -1,4 +1,4 @@
-Task1 - My Web Project
+Task1 - Basics of Web Development
 
 This is my HTML/CSS/JS project that includes:
 - Basic webpage structure
